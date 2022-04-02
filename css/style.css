@@ -1,0 +1,135 @@
+body {
+  background-color: #111f4b;
+}
+a {
+  display: inline-block;
+}
+.noise {
+  opacity: 6;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  height: 64px;
+  width: 100%;
+  display: block;
+  background-color: #15265c;
+  position: relative;
+  font-family: "Bebas Neue", cursive;
+}
+.logo {
+  background-color: #15265c;
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  cursor: pointer;
+}
+.logo-select {
+  position: absolute;
+  left: 28px;
+  top: 16px;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+navitems {
+  background-color: #19b5f1;
+  position: relative;
+  display: block;
+  width: 100%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+  padding: 0px 12px;
+}
+.navitems-child{
+  padding-left: 2%;
+}
+.search {
+  position: absolute;
+  top: 24px;
+  right: 200px;
+  cursor: pointer;
+}
+.navbtn {
+  position: absolute;
+  top: 12px;
+  right: 64px;
+}
+
+.login {
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  max-width: 50px;
+  right: 20px;
+  top: 12px;
+}
+
+.header {
+  max-width: 80%;
+  display: block;
+  position: relative;
+  top: 24px;
+  left: 2%;
+}
+
+.info{
+  position: relative;
+  top: 24px;
+  left: 8px;
+  width: 80%;
+  font-family: "Bebas Neue", cursive;
+  font-size: small;
+  color: white;
+  opacity: 60%;
+}
+
+.explore{
+  max-width: 60%;
+  position: relative;
+  top: 24px;
+  left: 2%;
+  cursor: pointer;
+}
+.blur{
+  position: absolute;
+  max-height: 70%;
+  max-width: 70%;
+}
+.blur-2{
+  position: absolute;
+  max-height: 85%;
+  max-width: 85%;
+  right: 0%;
+  bottom: 0%;
+}
+
+
+
+@media screen and (min-width:700px) {
+  .info{
+    left: 38px;
+    max-width: 620px;
+    min-width: 240px;
+    font-size: 24px;
+  }
+  
+}
