@@ -27,7 +27,7 @@ a {
 }
 .logo-select {
   position: absolute;
-  left: 28px;
+  left: 42px;
   top: 16px;
 }
 
@@ -52,7 +52,7 @@ a:active {
   text-decoration: none;
   padding: 0px 12px;
 }
-.navitems-child{
+.navitems-child {
   padding-left: 2%;
 }
 .search {
@@ -91,7 +91,7 @@ a:active {
   left: 2%;
 }
 
-.info{
+.info {
   position: relative;
   top: 24px;
   left: 8px;
@@ -102,19 +102,19 @@ a:active {
   opacity: 60%;
 }
 
-.explore{
+.explore {
   max-width: 60%;
   position: relative;
   top: 24px;
   left: 2%;
   cursor: pointer;
 }
-.blur{
+.blur {
   position: absolute;
   max-height: 70%;
   max-width: 70%;
 }
-.blur-2{
+.blur-2 {
   position: absolute;
   max-height: 85%;
   max-width: 85%;
@@ -122,14 +122,11 @@ a:active {
   bottom: 0%;
 }
 
-
-
-@media screen and (min-width:700px) {
-  .info{
+@media screen and (min-width: 700px) {
+  .info {
     left: 38px;
     max-width: 620px;
     min-width: 240px;
     font-size: 24px;
   }
-  
 }
